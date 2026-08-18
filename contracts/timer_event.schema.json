@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://timer-os.dev/schema/timer-event.json",
+  "title": "TimerEvent",
+  "type": "object",
+  "required": ["event_id", "occurred_at", "source", "kind"],
+  "properties": {
+    "event_id": {"type": "string"},
+    "occurred_at": {"type": "string", "format": "date-time"},
+    "source": {"type": "string", "description": "Origin of the event, e.g. body.audio, phone.notification"},
+    "kind": {"type": "string", "description": "Event type"},
+    "subject_ref": {"type": ["string", "null"], "description": "Optional pseudonymous subject/speaker reference"},
+    "payload_ref": {"type": ["string", "null"], "description": "Reference to private/raw payload; raw personal data is not required in the public event object"},
+    "summary": {"type": ["string", "null"]},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "metadata": {"type": "object", "additionalProperties": true}
+  },
+  "additionalProperties": false
+}
