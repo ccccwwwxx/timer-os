@@ -1,0 +1,8 @@
+[project]
+name = "timer-os-skeleton"
+version = "0.0.1"
+description = "Public architecture contracts for Timer OS"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["timer_os*"]
