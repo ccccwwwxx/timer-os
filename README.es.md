@@ -1,4 +1,4 @@
-<!-- i18n-version: 2026-08-19.1 -->
+<!-- i18n-version: 2026-08-20.1 -->
 # Timer OS · 时代系统
 
 **Idiomas:** [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · Español
@@ -12,6 +12,18 @@ El nombre 时代系统 no se refiere solo a medir el tiempo. Describe un sistema
 El proyecto parte de una premisa simple: si el espacio físico es un recurso escaso, entonces **la atención humana es el recurso escaso del tiempo**. Por ello, una IA personal útil debe hacer más que responder preguntas. Debe comprender contexto de forma continua, conservar historia valiosa, mantener estado cognitivo y decidir cuándo la atención humana es realmente necesaria.
 
 Timer OS no está limitado a humanos. La misma arquitectura puede dar soporte a agentes corporizados y robots de larga duración que necesiten percepción continua, conciencia de posición, mantenimiento de un modelo de sí mismos, planificación cognitiva y planificación de acciones.
+
+## Filosofía: el lenguaje como interfaz del pensamiento
+
+Timer OS parte de una premisa de diseño: **el pensamiento humano se construye sobre el lenguaje**.
+
+Esto no significa que toda cognición sea lingüística. La percepción, la emoción, la intuición y el control motor pueden existir antes del lenguaje explícito o fuera de él. Sin embargo, gran parte de la abstracción, la reflexión, la planificación, la coordinación y la externalización de la memoria humana se vuelve expresable, transmisible y manipulable mediante el lenguaje.
+
+Por eso el lenguaje transporta más que frases. También comprime rastros de conceptos, relaciones, intenciones, juicios y razonamiento. Esta es una de las razones por las que los modelos de lenguaje pueden operar sobre tantos tipos de tareas cognitivas: el lenguaje es una de las interfaces simbólicas más generales que la humanidad utiliza para externalizar el pensamiento.
+
+Timer OS no trata la voz y el texto únicamente como “comandos para una IA”, sino como rastros observables de un proceso cognitivo en evolución. **Body** captura el lenguaje junto con tiempo, hablante, posición y contexto físico; **YIdui** integra esos rastros en un estado cognitivo persistente; y el **Scheduler** decide cuándo recuperar historia, cuándo merece la pena profundizar el razonamiento y cuándo la cognición debe convertirse en acción.
+
+Hasta que las interfaces cerebro-computadora de gran ancho de banda sean realmente prácticas, el lenguaje sigue siendo uno de los puentes más desplegables y generales entre la cognición biológica y un sistema cognitivo externo. Timer OS busca convertir ese puente de episódico en continuo.
 
 ## Arquitectura
 
