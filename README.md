@@ -1,4 +1,4 @@
-<!-- i18n-version: 2026-08-19.1 -->
+<!-- i18n-version: 2026-08-20.1 -->
 # Timer OS · 时代系统
 
 **Languages:** English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md)
@@ -14,6 +14,18 @@ The name 时代系统 emphasizes more than timekeeping. It describes a system fo
 The project starts from a simple premise: if physical space is a scarce resource, then **human attention is the scarce resource of time**. A useful personal AI should therefore do more than answer questions. It should continuously understand context, preserve valuable history, maintain cognitive state, and decide when human attention is actually required.
 
 Timer OS is not limited to humans. The same architecture may also support long-running embodied agents and robots that need continuous sensing, position awareness, self-model maintenance, cognitive scheduling and action planning.
+
+## Philosophy: language as the interface of thought
+
+Timer OS starts from a design premise: **human thought is built on language**.
+
+This does not mean that all cognition is linguistic. Perception, emotion, intuition and motor control can exist before or outside explicit language. But a large part of human abstraction, reflection, planning, coordination and the externalization of memory becomes expressible, transmissible and manipulable through language.
+
+Language therefore carries more than sentences. It carries compressed traces of concepts, relationships, intentions, judgments and reasoning. This is also why language models can operate across so many cognitive tasks: language is one of humanity's most general symbolic interfaces for externalized thought.
+
+Timer OS treats speech and text not merely as commands to an AI, but as observable traces of an evolving cognitive process. The **Body** captures language together with time, speaker, position and physical context; **YIdui** integrates those traces into durable cognitive state; and the **Scheduler** decides when history should be recalled, when deeper reasoning is justified, and when cognition should become action.
+
+Before high-bandwidth brain-computer interfaces become practical, language remains the most deployable general-purpose bridge between biological cognition and an external cognitive system. Timer OS is designed to make that bridge continuous rather than episodic.
 
 ## Architecture
 
